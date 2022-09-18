@@ -13,6 +13,10 @@ class DownloadViewController: UIViewController {
         super.viewDidLoad()
 
         view.backgroundColor = .systemBackground
+        
+        title = "Downloads"
+        navigationController?.navigationBar.prefersLargeTitles = true
+        navigationController?.navigationItem.largeTitleDisplayMode = .always
     }
     
 
